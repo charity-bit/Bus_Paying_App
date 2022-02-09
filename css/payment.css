@@ -26,7 +26,7 @@ body {
 }
 
 .main-container,
-.form__input,
+.form-input-group,
 .form__button {
     font: 500 1rem 'Montserrat', sans-serif;
 }
