@@ -5,114 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://use.fontawesome.com/3923fabe74.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<link rel="stylesheet" href="/css/scanning.css">
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="/css/scanning.css" />
 
     <title>Scanning page</title>
   </head>
   <body>
     <header>
       <nav>
-          <div class="logo">
-              <!-- icon goes here -->
+        
+        <div class="logo">
+          <img src="/images/bus-solid.svg" alt="">
+          <h3>BUS-PAY</h3>
+        </div>
 
-              <h3>BUS-PAY</h3>
+        <div class="profile">
+          <div class="user">
+            <p>KM</p>
           </div>
-
-          <div class="profile">
-              <div class="user">
-                  <p>KM</p>
-              </div>
-              <div class="sign_out">
-                  <p>Sign Out</p>
-                  <!-- icon goes here -->
-              </div>
-          </div>
-
+          <div class="sign_out">
+            <p>Sign Out</p>
+            <ion-icon name="log-out"></ion-icon>
+                  </div>
+        </div>
       </nav>
     </header>
     <section class="details__container">
-
-           <!-- details  contains the details form -->
-       <div class="details__info">
-
-          <!-- names-->
+      <!-- details  contains the details form -->
+      <div class="details__info">
+        <!-- names-->
         <div class="names">
           <p class="title">Name</p>
           <p class="details">John Doe</p>
         </div>
         <!-- currency and amount container -->
         <div class="amount__currency">
-                    
-            <div class="amount">
-                <p class="title">Amount</p>
-                <div class="entry">
-                    <p class="details">80</p>
-                    <p><i class="fa-solid fa-wallet"></i>
-                    </p>
-                      
-                </div>
-                </div>
-                <!-- end of amount -->
-                
-                <div class="currency">
-                    <p class="title">Currency</p>
-                    <div class="entry">
-                        <p class="details">kshs</p>
-                        <i class="fa-solid fa-money-check-dollar"></i>
-                          
-                    </div>
-                    <!-- end of currency -->
-              
-                  </div>
-              
+          <div class="amount">
+            <p class="title">Amount</p>
+            <div class="entry">
+              <p class="details">80</p>
+              <ion-icon name="wallet"></ion-icon>
+            </div>
+          </div>
+          <!-- end of amount -->
+
+          <div class="currency">
+            <p class="title">Currency</p>
+            <div class="entry">
+              <p class="details">kshs</p>
+              <ion-icon name="cash"></ion-icon>
+            </div>
+            <!-- end of currency -->
+          </div>
         </div>
 
         <!-- end of amount and currency container -->
 
-
-               <!-- payment and route container -->
+        <!-- payment and route container -->
         <div class="payment__route">
+          <div class="payment">
+            <p class="title">Payment Method</p>
+            <div class="entry">
+              <p class="details">MPESA</p>
+              <ion-icon name="card"></ion-icon>
+            </div>
+          </div>
+          <!-- end of  payment -->
 
-
-            <div class="payment">
-                <p class="title">Payment Method</p>
-                <div class="entry">
-                    <p class="details">MPESA</p>
-                    <i class="fa-solid fa-credit-card"></i>
-                      
-                </div>
-                </div>
-                <!-- end of  payment -->
-                
-                <div class="route">
-                    <p class="title">Route Code</p>
-                    <div class="entry">
-                        <p class="details">XYZ123A</p>
-                        <i class="fa-solid fa-barcode"></i>
-                          
-                    </div>
-                    <!-- end of route -->
-              
-                  </div>
-          
+          <div class="route">
+            <p class="title">Route Code</p>
+            <div class="entry">
+              <p class="details">XYZ123A</p>
+              <ion-icon name="barcode"></ion-icon>
+            </div>
+            <!-- end of route -->
+          </div>
         </div>
-      <!-- end of payment and route container -->
-
+        <!-- end of payment and route container -->
 
         <!-- start of time -->
         <div class="time">
-            <p class="title">
-                Time Paid
-            </p>  
-              <div class="entry">
-                  <p class="details">
-                    15:50 Monday, 7 February 2022 (EAT)
-                  </p>
-                  <i class="fa-solid fa-clock"></i>
-
-              </div>
+          <p class="title">Time Paid</p>
+          <div class="entry">
+            <p class="details">15:50 Monday, 7 February 2022 (EAT)</p>
+            <ion-icon name="time"></ion-icon>
+          </div>
         </div>
 
         <!-- end of time -->
@@ -120,11 +104,13 @@
         <!-- button -->
 
         <button class="exitbtn">
-                     <p><i class="fa-solid fa-arrow-right-long"></i></p>
+          <ion-icon name="arrow-forward-circle"></ion-icon>
         </button>
-    </div>
-    
-      <div class="details__qrcode"></div>
+      </div>
+
+      <div class="details__qrcode">
+        <ion-icon name="qr-code"></ion-icon>
+      </div>
     </section>
   </body>
 </html>
