@@ -3,9 +3,35 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family:'Poppins';
   }
   :root {
     color:#23a6f0;
     color: #252b42;
   }
-
+  body{
+    background-image: url(/Bus_Paying_App/images/_.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .login{
+    width: 100%;
+    background: #55A7F0;
+    position: relative;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 5px;
+    height: 61vh;
+    top: 100px;      
+    
+}
+header{
+  position: relative;
+  top: -300px;
+  left: 300px;
+}
+.login h2{
+  text-align: center;
+}
