@@ -14,12 +14,20 @@ body{
     color: #23A6F0;
     font-size: 90px;
 }
-button{
-    margin: 7%;
-    padding: 20px;
-    background-color: #23A6F0;
-    border-radius: 20px;
+.links{
+    margin: 5%;
 }
 a{
     color: black;
+}
+.button{
+
+    padding: 20px;
+    background-color: #23A6F0;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.button:hover{
+
 }
