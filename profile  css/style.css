@@ -49,14 +49,15 @@
 
 .avatar .profile-picture {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 225px;
+    height: 225px;
     overflow: hidden;
 }
 
 .avator img {
     width: 100%;
-    text-align: center;
+    height: 100%;
+    object-fit: contain;
 }
 
 .avatar p {
@@ -66,9 +67,12 @@
 
 
 .personal-info {
+    display: flex;
+    flex-direction: column;
     width: 70%;
     margin-left: 150px;
 }
+
 
 .personal-info p {
     padding-top: 20px;
