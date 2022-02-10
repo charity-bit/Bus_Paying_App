@@ -159,9 +159,6 @@ body {
   border-radius: 5px;
 }
 
-button:focus {
-  border: 5px solid rgb(0, 255, 255);
-}
 
 .icon2 button {
   padding: 20px 35px;
@@ -171,4 +168,53 @@ button:focus {
 .icon3 button {
   padding: 20px 35px;
   border-radius: 5px;
+}
+
+.payment-icons button:focus {
+  border: 5px solid rgb(0, 255, 255);
+}
+
+.mpesa-text {
+ text-align: center;
+ font-weight: bold;
+ padding: 10px;
+}
+
+.mpesa-btn {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+.mpesa-btn button {
+  padding: 15px;
+  border-radius: 5px;
+  background: aqua;
+  border: none;
+}
+
+/* This style adds the footer section*/
+
+.footer-section{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.footer-section ul{
+  list-style-type: none;
+  cursor: pointer;
+}
+.footer-section ul li{
+  padding-top: 0.8vw;
+  color: #252B42;
+}
+
+.footer-section ul li:hover{
+   transition: all 0.3s ease 0s;
+   color: #f02394;
 }
