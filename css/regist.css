@@ -10,7 +10,8 @@
     color: #252b42;
   }
   body{
-    background-image: url(/Bus_Paying_App/images/_.jpeg);
+    background-image: url(/images/_.jpeg);
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
