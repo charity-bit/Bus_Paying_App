@@ -27,6 +27,16 @@
     top: 100px;      
     
 }
+.login::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.4;
+
+}
+/*style the h1 element*/
 header{
   position: relative;
   top: -300px;
@@ -36,7 +46,7 @@ header{
   text-align: center;
 }
 .login form{
-  margin-top: 40px;
+  margin-top: 30px;
 
 }
 .input-box{
@@ -52,7 +62,7 @@ padding: 0 15px;
 font-size: 17px;
 font-weight: 400;
 color: #252b42;
-border: 1.5px solid #FFFF;
+border: 1.5px solid white;
 border-bottom-width: 2.5px;
 border-radius: 6px;
 transition: all 0.3s ease;
@@ -61,7 +71,7 @@ transition: all 0.3s ease;
   display: inline-block;
   border-radius: 7px;
   border: none;
-  background: #ffff;
+  background: white;
   color: #252b42;
   font-family: inherit;
   text-align: center;
@@ -73,3 +83,23 @@ transition: all 0.3s ease;
   margin: 20px 0 0 0;
   margin-left: 150px;
  }
+ .button input{
+   cursor: pointer;
+   background: white;
+   border: none;
+   color: #252b42;
+   font-size: 15px;
+ }
+ .member{
+  padding: 30px;
+} 
+.member a{
+   color: white;
+}
+
+.forget{
+  padding: 30px;
+}
+.forget a{
+  color: #252b42;
+}

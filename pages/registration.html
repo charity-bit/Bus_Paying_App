@@ -13,16 +13,15 @@
 </header>
 <body>
     <div class="login">
-       
         <h2>Create a new account</h2>
-        <form action="#">
+        <form action="#" method="post">
             <div class="input-box">
                 <label for="fname" id="label">Full Name</label><br>
                 <input type="text" placeholder="Enter your name">
                </div>
             <div class="input-box">
                     <label for="email" id="label">Email Address</label><br>
-                    <input type="text" placeholder="Enter your email">
+                    <input type="email" placeholder="Enter your email">
                </div>
             <div class="input-box">
                     <label for="idnumber" id="label">ID Number</label><br>
@@ -30,20 +29,24 @@
                </div>
             <div class="input-box">
                     <label for="password" id="label">Passward</label><br>
-                    <input type="password" placeholder="Enter your Passward">
+                    <input type="password" class="passward" placeholder="Enter your Passward">
                </div>
             <div class="input-box">
                     <label for="password" id="label">Confirm Passward</label><br>
-                    <input type="password" placeholder="Enter your Passward">
+                    <input type="password" class="passward" placeholder="Enter your Passward">
                </div>
                
             <button class="button" style="vertical-align:middle">
-                <span>Sign Up</span>
+                <input type="button" value="Sign Up">
                 </button>
              <div class="member">
-                 <h3>Already a member? <a href="#">Login</a></h3>
+                 <h5>Already a member? <a href="login.html" class="text login-text">Login</a></h5>
                 </div>
         </form>
     </div>
+    <script src="/Bus_Paying_App/js/login.js"></script>
+    <a href="https://www.Google.com" target="_blank">Google!</a> 
+
 </body>
 </html>
+       
