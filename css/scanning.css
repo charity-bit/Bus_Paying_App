@@ -57,11 +57,22 @@ nav {
     flex-direction: column;
     justify-content: center;
 }
-.user  p{
+.user  p {
     font-size: 0.8rem;
+}
+
+.user a{
+  color: #fff;
+  text-decoration: none;
 }
 .sign_out ion-icon{
     color: #252b42;
+}
+
+.sign_out a{
+  text-decoration: none;
+  font-size: 1rem;
+  color:#252b42;
 }
 
 .mobile__qrcode{

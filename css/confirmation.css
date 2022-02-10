@@ -63,6 +63,10 @@
     border-radius: 50%;
 }
 
+.initials a{
+    text-decoration: none;
+}
+
 .center {
     display: flex;
     flex-direction: column;

@@ -11,18 +11,20 @@
 <body>
     <div class="login">
     <h2>Login</h2>
-        <form action="">
+        <form id="loginform">
             
             <div class="input-box">
                 <label for="idnumber" >ID Number</label><br>
-                <input type="text"  id="idnumber" placeholder="Enter your ID Number">
+                <input type="text" name="idno"
+                 id="idnumber" placeholder="Enter your ID Number">
             </div>
             <div class="input-box">
                 <label for="password" >Passward</label><br>
-                <input type="password" id="pwd1" placeholder="Enter your Passward">
+                <input type="password" name="passfield"
+                id="pwd1" placeholder="Enter your Passward">
             </div>
             <button class="button" style="vertical-align:middle">
-             <span>  <input type="submit" value="Login" class="btn" onClick="login()"></span> 
+             <span>  <input type="submit" value="Login" class="btn"></span> 
                
             </button>
             <div class="forget">
