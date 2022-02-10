@@ -11,7 +11,7 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <title>Payment</title>
   <link rel="stylesheet" href="/css/payment.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body>
@@ -45,15 +45,18 @@
     </div>
   </nav>
 
+<!-- This section contains main-container -->
+
   <div class="main-container">
     <div class="heading-title">
       <h2>Payment</h2>
       <hr>
-       <!-- this section carries the search funtionality -->
-       <div class="wrapper">
+      <!-- this section carries the search funtionality -->
+      <div class="wrapper">
+        <h4 class="main-text">Search a Matatu Provider</h4>
         <div class="search-input">
           <a href="" target="_blank" hidden></a>
-          <input type="text" placeholder="Type to search provider..">
+          <input type="text" placeholder="Type to search...">
           <div class="autocom-box">
             <!-- here list are inserted from javascript -->
           </div>
@@ -63,11 +66,25 @@
       <hr>
       <div class="payment-method">
         <div class="payment-text">
-          <span class="payment-title">Choose a Payment Method <p class="payment-text-small"><i>(Click on your suitable
+          <span class="payment-title h5">Choose a Payment Method <p class="payment-text-small"><i>(Click on your
+                suitable
                 option)</i></p> </span>
-          <div class="payment-icons">
-            <div class="icons-1">
 
+          <div class="payment-icons">
+            <div class="icon1">
+              <button>
+                <img src="/img/visa-ms.png" alt="visa-ms" srcset="" width="50" height="50">
+              </button>
+            </div>
+            <div class="icon2">
+              <button>
+                <img src="/img/Paypal-Logo.png" alt="paypal" srcset="" width="50" height="50">
+              </button>
+            </div>
+            <div class="icon3">
+              <button>
+                <img src="/img/mpesa.png" alt="paypal" srcset="" width="50" height="50">
+              </button>
             </div>
           </div>
         </div>
@@ -83,29 +100,13 @@
         </div>
 
       </div>
-    </div>
+    </div> <br>
+    <hr>
+
   </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="/js/index.js"></script>
-<script src="/js/suggestions.js"></script>
+  <script src="/js/index.js"></script>
+  <script src="/js/suggestions.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
