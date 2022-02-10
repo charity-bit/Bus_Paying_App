@@ -153,3 +153,31 @@ body {
 .payment-icons .icon1 {
   border: none;
 }
+
+.icon1 button {
+  padding: 20px 35px;
+  border-radius: 5px;
+}
+
+button:focus {
+  /* border-color: rgb(0, 255, 255); */
+  border: 5px solid rgb(0, 255, 255);
+}
+
+/* .icon button:focus {
+  border-color: rgb(0, 255, 255);
+}
+
+.icon3 button:focus {
+  border-color: rgb(0, 255, 255);
+} */
+
+.icon2 button {
+  padding: 20px 35px;
+  border-radius: 5px;
+}
+
+.icon3 button {
+  padding: 20px 35px;
+  border-radius: 5px;
+}
