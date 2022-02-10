@@ -160,17 +160,8 @@ body {
 }
 
 button:focus {
-  /* border-color: rgb(0, 255, 255); */
   border: 5px solid rgb(0, 255, 255);
 }
-
-/* .icon button:focus {
-  border-color: rgb(0, 255, 255);
-}
-
-.icon3 button:focus {
-  border-color: rgb(0, 255, 255);
-} */
 
 .icon2 button {
   padding: 20px 35px;
