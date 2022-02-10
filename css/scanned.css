@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap");
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  height: 100px;
+}
+nav {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.logo {
+  display: flex;
+  color: #23a6f0;
+}
+
+.logo img {
+  width: 24px;
+  height: 24px;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.sign_out {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+.sign_out p {
+  font-size: 0.9rem;
+}
+
+.user {
+  color: white;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: #23a6f0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.user p {
+  font-size: 0.8rem;
+  color: white;
+}
+.sign_out ion-icon {
+  color: #23a6f0;
+}
+
+section {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.title {
+  color: #252b42;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  opacity: 0.9;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.details {
+  color: #23a6f0;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+.info {
+  width: 100%;
+}
+.camera {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 30%;
+  height: 40vh;
+}
+.camera button {
+  color: #23a6f0;
+  background-color: none;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.scanningbtn2 {
+  display: none;
+}
+
+#contcamera {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.details__info {
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none; */
+  border: 2px solid #23a6f0;
+  border-radius: 10px;
+  background-color: white;
+  padding: 52px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0 auto;
+  display: none;
+}
+
+.showscanned {
+  display: block;
+}
+.hidescanned {
+  display: none;
+}
+.names {
+  width: 100%;
+}
+.names p:nth-child(2) {
+  background-color: whitesmoke;
+  padding: 10px 5px;
+}
+.amount__currency,
+.payment__route {
+  display: flex;
+  gap: 15px;
+}
+.amount,
+.route,
+.currency,
+.payment,
+.route {
+  width: 50%;
+}
+
+.entry {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 10px 5px;
+}
+
+.entry ion-icon {
+  color: #23a6f0;
+  margin-right: 10px;
+}
+.exitbtn {
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    #23a6f0 0%,
+    rgba(46, 125, 178, 0.578125) 99.99%,
+    rgba(62, 68, 92, 0) 100%
+  );
+  border-radius: 7px;
+  padding: 10px 0;
+  border: none;
+  margin-top: 10px;
+}
+.exitbtn ion-icon {
+  color: #252b42;
+  font-size: 32px;
+  margin-right: -7px;
+}
+.recently {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.recently h3 {
+  color: #23a6f0;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+th {
+  color: #252b42;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+table {
+  border-spacing: 20px 0;
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px auto;
+  background-color: whitesmoke;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+th,
+tr,
+td {
+  text-align: start;
+}
+td {
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 500px) {
+  .camera{
+    width: 50%;
+  }
+  #qr-reader{
+    width:100%;
+    margin: 0 auto;
+  }
+  #scan,
+  #stopscan {
+    font-size: 0.8rem;
+  }
+  .details__info {
+    padding: 20px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  table {
+    border-spacing: 15px;
+  }
+  th {
+    font-size: 0.8rem;
+  }
+
+  .amount,
+  .route,
+  .currency,
+  .payment,
+  .route {
+    width: 100%;
+  }
+  .amount__currency,
+  .payment__route {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .details__info {
+    width: 80%;
+    padding: 20px;
+  }
+}
